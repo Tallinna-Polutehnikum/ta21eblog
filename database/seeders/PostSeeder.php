@@ -20,5 +20,6 @@ class PostSeeder extends Seeder
             $post->user_id = $users->random()->id;
             $post->save();
         }
+
     }
 }
